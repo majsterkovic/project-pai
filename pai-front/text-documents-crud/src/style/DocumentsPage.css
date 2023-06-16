@@ -1,0 +1,115 @@
+.documents-page {
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #D3C0D2;
+}
+
+.filters input[type='text'],
+.filters button {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.filters input[type='text'] {
+    border: 1px solid #D3C0D2;
+    color: #333333;
+    background-color: #FFFFFF;
+}
+
+.filters button {
+    background-color: #9C89B8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.filters button:hover {
+    background-color: #D3C0D2;
+}
+
+.document-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.document-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom right, #ffffff, #D3C0D2);
+    display: flex;
+    justify-content: space-between;
+    color: #333333;
+}
+
+
+.document-item-content {
+    flex-grow: 1;
+}
+
+.document-item h2 {
+    margin-bottom: 10px;
+    color: #9C89B8;
+}
+
+.tag-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tag-list li {
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.create-button {
+    display: block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9C89B8;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.create-button:hover {
+    background-color: #D3C0D2;
+}
+
+.document-item img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+/* Nowy styl dla linków */
+a {
+    text-decoration: none; /* Usunięcie domyślnego podkreślenia */
+    color: #9C89B8; /* Kolor linku */
+    transition: color 0.2s ease-in-out; /* Płynne przejście koloru */
+}
+
+a:hover {
+    color: #D3C0D2; /* Zmiana koloru po najechaniu myszką */
+}

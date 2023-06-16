@@ -1,0 +1,57 @@
+.create-resource-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    background-color: #333333;
+}
+
+.create-resource-page form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-resource-page label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #9C89B8;
+}
+
+.create-resource-page input,
+.create-resource-page textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D3C0D2;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.create-resource-page textarea {
+    height: 150px;
+}
+
+.create-resource-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9C89B8;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.create-resource-page button:disabled {
+    background-color: #999999;
+    cursor: not-allowed;
+}
+
+.create-resource-page .error {
+    color: #ff0000;
+    margin-bottom: 10px;
+}

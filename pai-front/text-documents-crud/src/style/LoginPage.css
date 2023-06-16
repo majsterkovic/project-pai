@@ -1,0 +1,77 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333333;
+}
+
+.login-page form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-page label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9C89B8;
+}
+
+.login-page .form-field {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #D3C0D2;
+    border-radius: 5px;
+}
+
+.login-page .error {
+    color: #FF0000;
+    margin-bottom: 15px;
+}
+
+.login-page button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9C89B8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-page button:hover {
+    background-color: #D3C0D2;
+}
+
+.login-page .password-reset {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .reset-button {
+    background-color: transparent;
+    border: none;
+    color: #9C89B8;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.login-page .reset-button:hover {
+    text-decoration: underline;
+}
+
+.login-page .reset-message {
+    margin-top: 10px;
+    color: #555555;
+    font-size: 0.9rem;
+    text-align: center;
+}

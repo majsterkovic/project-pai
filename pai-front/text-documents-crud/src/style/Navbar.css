@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #232323;
+    color: #FFFFFF;
+}
+
+
+nav div {
+    font-size: 1.2rem;
+}
+
+nav button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9C89B8;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #D3C0D2;
+}
+
+nav a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #D3C0D2;
+}

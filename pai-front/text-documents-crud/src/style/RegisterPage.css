@@ -1,0 +1,84 @@
+.register-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #333333;
+}
+
+.register-page .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.register-page .info h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9C89B8;
+    margin-bottom: 10px;
+}
+
+.register-page .info p {
+    font-size: 1.2rem;
+    color: #555555;
+    text-align: center;
+}
+
+.register-page form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.register-page label {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #9C89B8;
+}
+
+.register-page .form-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #D3C0D2;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.register-page button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9C89B8;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.register-page button:hover {
+    background-color: #D3C0D2;
+}
+
+.register-page .error {
+    color: #FF0000;
+    margin-bottom: 15px;
+}
